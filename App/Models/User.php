@@ -8,7 +8,7 @@ class User extends Database
 
   public function GetUser()
   {
-    return Database::All("SELECT * FROM users")->Fetch();
+    return Database::All()->Fetch();
   }
 }
 
